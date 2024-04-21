@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="ROCK PAPER SCISSOR"
+        android:textColor="@color/purple"
+        android:textSize="65px"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:src="@drawable/rpsrules" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginTop="50px"
+        android:hint="ENTER YOUR NAME"
+        android:gravity="center"
+        android:padding="70px"
+        android:paddingStart="100px"
+        android:paddingEnd="100px"/>
+
+    <Button
+        android:layout_width="450px"
+        android:layout_height="140px"
+        android:text="START"
+        android:textSize="55px"
+        android:layout_gravity="center"
+        android:layout_marginTop="80px"
+        android:onClick="next"/>
+
+</LinearLayout>
